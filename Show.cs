@@ -36,9 +36,9 @@ namespace TestNember1
         }
         public bool AddActor(Actor actor)
         {
-           
 
-           
+
+
             if (actor.GetAge() >= 45 && actor.GetNumberOfShows() >= 5)
             {
                 //  מציאת מקום פנוי במערך והוספה
@@ -48,10 +48,14 @@ namespace TestNember1
                     if (this.cast[i] == null)
                     {
                         this.cast[i] = actor; // הוספת השחקן למקום הפנוי הראשון
-                        return true;          // ההוספה הצליחה
                         this.cast[i].AddShow(); // עדכון מספר ההצגות של השחקן
+                        return true;          // ההוספה הצליחה
+
+                      
+
 
                     }
+
                 }
             }
 
