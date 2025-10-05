@@ -50,8 +50,7 @@ namespace TestNember1
                         this.cast[i] = actor; // הוספת השחקן למקום הפנוי הראשון
                         this.cast[i].AddShow(); // עדכון מספר ההצגות של השחקן
                         return true;          // ההוספה הצליחה
-<<<<<<<<< Temporary merge branch 1
-=========
+
                         this.cast[i].AddShow(); // עדכון מספר ההצגות של השחקן
 
                     }
